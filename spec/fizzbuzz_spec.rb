@@ -12,4 +12,8 @@ describe "fizzbuzz" do
   it "returns buzz when it takes 5 as an argument" do
     expect(fizzbuzz(5)).to eq("buzz")
   end
+
+  it "returns fizzbuzz when it takes 15 as an argument" do
+    expect(fizzbuzz(15)).to eq("fizzbuzz")
+  end
 end
